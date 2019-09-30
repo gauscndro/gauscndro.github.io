@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: royalblue;
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+}
+.container-box {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+/*
+---------
+Start Header
+*/
+
+.header {
+    text-align: center;
+    background-color:cyan;
+}
+
+.menu ul {
+    background-color: black;
+    margin: 0px;
+    padding: 5px 0px tpx 30px;
+    overflow: auto;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.menu li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: black;
+    background-color: crimson;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+/*
+----------
+End Header
+*/
+
+/*
+Start Content
+-------------
+*/
+
+/*Start Spotlight*/
+.spotlight {
+    background-image: url("../images/parallettes - Copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    height: 400px;
+    padding: 20px 0;
+}
+
+.spotlight h1 {
+    color: blue;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color:black;
+}
+/* End Spotlight */
+
+/* Start Box 1 */
+.box-1 {
+    overflow: auto;
+    background-color: black;
+    padding: 20px 0;
+    text align: center;
+}
+/* End Box 1 */
+
+/* Start Box 2 */
+.box-2 {
+    overflow: auto;
+    background-color: blue;
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Box 2*/
+
+/* Start Box 3 */
+.box-3 {
+    overflow: auto;
+    background-color: cyan;
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Box 3 */
+
+/*
+-----------
+End Content
+*/
+
+
+
+/*
+Start footer
+------------
+*/
+
+.footer{
+    overflow: auto;
+    background-color:rgb(116, 39, 39);
+    color: blue;
+}
+
+.copyright {
+    color: red;
+    overflow: auto;
+    background: black;
+    text-align: center;
+    padding: 5px;
+}
+.col-1, .col-2, .col-3 {
+    float: left;
+}
+.col-1, .col-2, .col-3 {
+    width: 30%;
+}
+
+/* 
+----------
+End Footer
+*/
