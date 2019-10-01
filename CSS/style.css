@@ -69,6 +69,7 @@ Start Content
     overflow: auto;
     height: 400px;
     padding: 20px 0;
+    background-attachment: fixed;
 }
 
 .spotlight h1 {
